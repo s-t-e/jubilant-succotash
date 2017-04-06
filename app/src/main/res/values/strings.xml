@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DaftCatApp_espresso</string>
+    <string name="your_name">Your name</string>
+    <string name="button">Button</string>
+    <string name="meow_master">Meow, master</string>
+    <string name="meow">Meow, %s</string>
+</resources>
