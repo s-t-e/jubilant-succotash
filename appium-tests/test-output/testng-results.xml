@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="59849" started-at="2017-04-28T14:12:04Z" finished-at="2017-04-28T14:13:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="59849" started-at="2017-04-28T14:12:04Z" finished-at="2017-04-28T14:13:03Z">
+      <class name="com.Cat.Appium_Cat.tests.TestSample">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.Cat.Appium_Cat.tests.TestSample@148080bb]" name="beforeSuite" is-config="true" duration-ms="18" started-at="2017-04-28T15:12:04Z" finished-at="2017-04-28T15:12:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@437da279]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Cat.Appium_Cat.tests.TestSample@148080bb]" name="setUp" is-config="true" duration-ms="11489" started-at="2017-04-28T15:12:04Z" finished-at="2017-04-28T15:12:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="sampleFailTest()[pri:0, instance:com.Cat.Appium_Cat.tests.TestSample@148080bb]" name="sampleFailTest" duration-ms="9402" started-at="2017-04-28T15:12:15Z" finished-at="2017-04-28T15:12:25Z">
+          <exception class="org.junit.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<Meow, [RAM]> but was:<Meow, [ST]>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.junit.ComparisonFailure: expected:<Meow, [RAM]> but was:<Meow, [ST]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.Cat.Appium_Cat.tests.TestSample.sampleFailTest(TestSample.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.junit.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleFailTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Cat.Appium_Cat.tests.TestSample@148080bb]" name="tearDown" is-config="true" duration-ms="9246" started-at="2017-04-28T15:12:25Z" finished-at="2017-04-28T15:12:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Cat.Appium_Cat.tests.TestSample@148080bb]" name="setUp" is-config="true" duration-ms="10687" started-at="2017-04-28T15:12:34Z" finished-at="2017-04-28T15:12:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="sampletest()[pri:0, instance:com.Cat.Appium_Cat.tests.TestSample@148080bb]" name="sampletest" duration-ms="9683" started-at="2017-04-28T15:12:44Z" finished-at="2017-04-28T15:12:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampletest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Cat.Appium_Cat.tests.TestSample@148080bb]" name="tearDown" is-config="true" duration-ms="9321" started-at="2017-04-28T15:12:54Z" finished-at="2017-04-28T15:13:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Cat.Appium_Cat.tests.TestSample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

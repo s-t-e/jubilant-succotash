@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="regression" parallel="none">
+	<!-- Set listener in XML (to have reports when running the tests through 
+		Eclipse, from command-line maven is not needed) -->
+	<listeners>
+		<listener class-name="com.Tuclothing.Appium_Tuclothing.reports.BaseHTMLReporter" />
+	</listeners>
+	<!-- List of tests -->
+	<test name="login">
+		<classes>
+			<class name="com.Tuclothing.Appium_Tuclothing.tests.TestLogin" />
+		</classes>
+	</test>
+	<test name="navigation">
+		<classes>
+			<class name="com.Tuclothing.Appium_Tuclothing.tests.TestBrowse" />
+		</classes>
+	</test>
+</suite>
+
+
